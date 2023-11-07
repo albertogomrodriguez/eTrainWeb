@@ -1,0 +1,51 @@
+* {
+  background-color: #053322;
+}
+
+h2,
+h3,
+h4,
+h6 {
+  color: #fff;
+  font-family: Poppins;
+}
+
+h3{
+  margin-left: 2.5vw;
+}
+
+h4 {
+  z-index: 1;
+  position: absolute;
+  margin-top: 30vh;
+  margin-right: 60vw;
+  background: transparent;
+}
+
+#programas-div {
+  padding: 40px;
+}
+
+.img-servicio {
+  opacity: 0.6;
+  width: 90vw;
+  height: 300px;
+  border-radius: 100px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.card-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+#servicios-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}

@@ -1,0 +1,24 @@
+* {
+  background-color: #053322;
+}
+
+nav {
+  display: flex;
+}
+
+img {
+  padding-top: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#div-img-nav{
+  padding-right: 800px;
+}
