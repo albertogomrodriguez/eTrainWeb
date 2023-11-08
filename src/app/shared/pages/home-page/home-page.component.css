@@ -1,44 +1,119 @@
 * {
   background-color: #053322;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+h6 {
+  color: #fff;
+  font-family: Poppins;
+}
+
 #elementos-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px;
 }
-h2 {
-  color: #fff;
-  font-family: Poppins;
+.home h2 {
   padding: 40px;
   font-size: 50px;
   max-width: 25ch;
+  margin-left: 10vw;
 }
 
 #home-img {
   display: flex;
 
-  width: 600px;
+  width: 1200px;
+  height: 450px;
   border-radius: 100px;
   z-index: 2;
+  object-fit: cover;
 }
 
 #footer-img-home {
   border-radius: 100px;
   background: #00e87e;
-  width: 600px;
+  width: 1200px;
   height: 394px;
   flex-shrink: 0;
   z-index: 1;
   position: absolute;
-  bottom: -15vh;
+  bottom: -30vh;
 }
 
- p {
-  color: #4A4A4A;
+#text-footer-img {
+  color: #4a4a4a;
+  font-size: 17px;
   background: #00e87e;
   font-family: Poppins;
   z-index: 3;
-  padding-top: 4vh;
-  max-width: 40ch;
+  padding-top: 10vh;
+  max-width: 45ch;
 }
+
+#btn-comienza {
+  width: 400px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #c8fce3;
+  margin-top: 12.5vh;
+}
+
+#seccion-cards {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#seccion-cards h6 {
+  margin-left: 13%;
+}
+
+.card {
+  border-radius: 50px;
+  border: 3px solid #00e87e;
+  padding: 5vh;
+  width: 400px;
+  height: 200px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.card p,
+h5 {
+  color: white;
+}
+
+.card p {
+  max-width: 35ch;
+}
+
+#first-card {
+  margin-left: 15vw;
+}
+#second-card {
+  margin-left: 35vw;
+}
+
+#third-card {
+  margin-left: 55vw;
+}
+
+#seccion-carrusel h2,
+p {
+  color: #053322;
+  background: transparent;
+}
+
+#seccion-carrusel {
+  border-radius: 100px;
+  background: #00e87e;
+}
+
