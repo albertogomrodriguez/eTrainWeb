@@ -8,7 +8,9 @@
 }
 
 h2,
-h6 {
+h5,
+h6,
+p {
   color: #fff;
   font-family: Poppins;
 }
@@ -20,17 +22,23 @@ h6 {
   padding: 40px;
 }
 .home h2 {
-  padding: 40px;
-  font-size: 50px;
-  max-width: 25ch;
-  margin-left: 10vw;
+  color: #fff;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120px; /* 114.286% */
+  max-width: 17ch;
+
+  margin-left: 183px;
+  margin-top: 266px;
 }
 
 #home-img {
   display: flex;
 
-  width: 1200px;
-  height: 450px;
+  width: 1300px;
+  height: 959px;
+  flex-shrink: 0;
   border-radius: 100px;
   z-index: 2;
   object-fit: cover;
@@ -39,12 +47,11 @@ h6 {
 #footer-img-home {
   border-radius: 100px;
   background: #00e87e;
-  width: 1200px;
-  height: 394px;
+  width: 1300px;
+  height: 494px;
   flex-shrink: 0;
   z-index: 1;
   position: absolute;
-  bottom: -30vh;
 }
 
 #text-footer-img {
@@ -73,37 +80,66 @@ h6 {
 }
 
 #seccion-cards h6 {
-  margin-left: 13%;
+  margin-left: 153px;
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 66px;
+  margin-bottom: 135px;
+}
+
+#seccion-cards h2 {
+  padding: 0px;
+  margin-left: 153px;
 }
 
 .card {
   border-radius: 50px;
   border: 3px solid #00e87e;
   padding: 5vh;
-  width: 400px;
-  height: 200px;
-  margin-top: 2%;
-  margin-bottom: 5%;
+  width: 891px;
+  height: 410px;
+  margin-bottom: 1%;
 }
 
 .card p,
 h5 {
-  color: white;
+  color: #bdd7cd;
 }
 
 .card p {
-  max-width: 35ch;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-left: 81px;
+  margin-right: 60px;
+  margin-top: 56px;
+}
+
+.card h5 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  flex-shrink: 0;
+  margin-left: 81px;
+  margin-top: 10px;
 }
 
 #first-card {
-  margin-left: 15vw;
+  margin-left: 150px;
 }
 #second-card {
-  margin-left: 35vw;
+  margin-left: 415px;
 }
 
 #third-card {
-  margin-left: 55vw;
+  margin-left: 763px;
 }
 
 #seccion-carrusel h2,
@@ -117,3 +153,6 @@ p {
   background: #00e87e;
 }
 
+.wrapper .carousel {
+  white-space: nowrap;
+}
