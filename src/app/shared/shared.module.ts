@@ -7,6 +7,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ServicesPageComponent } from './pages/services-page/services-page.component';
+import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
     HomePageComponent,
     NavbarComponent,
     ServicesPageComponent,
+    ImageCarouselComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -23,6 +25,7 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
     HomePageComponent,
     NavbarComponent,
     ServicesPageComponent,
+    ImageCarouselComponent,
   ],
 })
 export class SharedModule {}

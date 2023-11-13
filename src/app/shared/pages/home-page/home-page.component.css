@@ -52,16 +52,19 @@ p {
   flex-shrink: 0;
   z-index: 1;
   position: absolute;
+  padding-top: 79%;
 }
 
 #text-footer-img {
   color: #4a4a4a;
-  font-size: 17px;
+  font-size: 30px;
   background: #00e87e;
   font-family: Poppins;
   z-index: 3;
   padding-top: 10vh;
-  max-width: 45ch;
+  max-width: 50ch;
+  text-align: center;
+  color: #053322;
 }
 
 #btn-comienza {
@@ -70,7 +73,7 @@ p {
   flex-shrink: 0;
   border-radius: 100px;
   background: #c8fce3;
-  margin-top: 12.5vh;
+  margin-top: 125px;
 }
 
 #seccion-cards {
@@ -146,13 +149,30 @@ h5 {
 p {
   color: #053322;
   background: transparent;
+  margin-left: 150px;
 }
 
 #seccion-carrusel {
+  width: 1737px;
+  height: 1420px;
+  flex-shrink: 0;
   border-radius: 100px;
   background: #00e87e;
+  margin-top: 268px;
 }
 
-.wrapper .carousel {
-  white-space: nowrap;
+#seccion-carrusel h2 {
+  margin-top: 130px;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115px; /* 109.524% */
+}
+
+#seccion-carrusel p {
+  margin-top: 50px;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

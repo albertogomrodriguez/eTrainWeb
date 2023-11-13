@@ -1,0 +1,18 @@
+.carousel {
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  width: 616px;
+  top: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 616px;
+  height: 596px;
+  flex-shrink: 0;
+}
