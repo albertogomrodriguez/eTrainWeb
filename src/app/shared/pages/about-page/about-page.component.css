@@ -1,0 +1,171 @@
+* {
+  background-color: #053322;
+  font-family: Poppins;
+  color: #fff;
+}
+
+.titulos {
+  padding-top: 100px;
+  margin-left: 70px;
+  padding-bottom: 90px;
+}
+
+.titulos h3 {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115px;
+  padding-bottom: 30px;
+}
+
+.titulos p {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+#cuadrado-resaltado {
+  width: 1728px;
+  height: 947px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #00e87e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cuadrado-resaltado h4,
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  color: #053322;
+}
+
+#cuadrado-resaltado h4 {
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75px; /* 136.364% */
+
+  margin-left: 225px;
+  margin-right: 225px;
+
+  padding-top: 112px;
+  padding-bottom: 60px;
+}
+
+#cuadrado-resaltado p {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 128.571% */
+
+  margin-left: 290px;
+  margin-right: 290px;
+}
+
+#btn-comienza {
+  width: 400px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #c8fce3;
+  margin-top: 112px;
+  color: #053322;
+}
+
+#sec-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 50px;
+  border: 3px solid #00e87e;
+  padding: 5vh;
+  width: 891px;
+  height: 410px;
+  margin-bottom: 1%;
+}
+
+.card p,
+h5 {
+  color: #bdd7cd;
+}
+
+.card p {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-left: 81px;
+  margin-right: 60px;
+  margin-top: 56px;
+}
+
+.card h5 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  flex-shrink: 0;
+  margin-left: 81px;
+  margin-top: 10px;
+}
+
+#first-card {
+  margin-left: 150px;
+}
+#second-card {
+  margin-left: 415px;
+}
+
+#third-card {
+  margin-left: 763px;
+}
+
+#sec-equipo h4,
+p {
+  color: white;
+  text-align: left;
+}
+
+#presentacion-antonio {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 300px;
+}
+
+#cuadrado {
+  width: 703px;
+  height: 692px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #d9d9d9;
+  margin-right: 110px;
+}
+
+#texto-toni {
+  margin-right: 150px;
+}
+#texto-toni h4 {
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px; /* 115.385% */
+}
+
+#texto-toni p {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
