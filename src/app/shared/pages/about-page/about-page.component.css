@@ -4,6 +4,12 @@
   color: #fff;
 }
 
+#sec-quienes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .titulos {
   padding-top: 100px;
   margin-left: 70px;
@@ -16,27 +22,34 @@
   font-weight: 600;
   line-height: 115px;
   padding-bottom: 30px;
+  margin-left: 80px;
 }
 
 .titulos p {
+  width: 1172px;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: 45px;
+  margin-left: 80px;
+  margin-right: 300px;
 }
 
 #cuadrado-resaltado {
-  width: 1728px;
+  width: 95%;
   height: 947px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #00e87e;
+  background: #c8fce3;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
 
-  margin: 250px auto auto 170px;
+#eslogan {
+  font-size: 20px;
+  font-style: italic;
 }
 
 #cuadrado-resaltado h4,
@@ -55,11 +68,7 @@ p {
   font-weight: 600;
   line-height: 75px; /* 136.364% */
 
-  margin-left: 225px;
-  margin-right: 225px;
-
-  padding-top: 112px;
-  padding-bottom: 60px;
+  margin: 80px 225px 60px 225px;
 }
 
 #cuadrado-resaltado p {
@@ -70,6 +79,8 @@ p {
 
   margin-left: 290px;
   margin-right: 290px;
+  text-align: center;
+  color: #053322;
 }
 
 #btn-comienza {
@@ -77,7 +88,8 @@ p {
   height: 60px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #c8fce3;
+  background: #00e87e;
+  border-color: #00e87e;
   margin-top: 112px;
   color: #053322;
 }
@@ -93,7 +105,7 @@ p {
   padding: 5vh;
   width: 891px;
   height: 410px;
-  margin-bottom: 1%;
+  margin-bottom: 70px;
 }
 
 .card p,
@@ -107,9 +119,7 @@ h5 {
   font-weight: 400;
   line-height: normal;
 
-  margin-left: 81px;
-  margin-right: 60px;
-  margin-top: 56px;
+  margin: 10px 30px 90px 40px;
 }
 
 .card h5 {
@@ -119,19 +129,18 @@ h5 {
   line-height: normal;
 
   flex-shrink: 0;
-  margin-left: 81px;
-  margin-top: 10px;
+  margin-left: 40px;
 }
 
 #first-card {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 #second-card {
-  margin-left: 415px;
+  margin-left: 300px;
 }
 
 #third-card {
-  margin-left: 763px;
+  margin-left: 600px;
 }
 
 #sec-equipo h4,
