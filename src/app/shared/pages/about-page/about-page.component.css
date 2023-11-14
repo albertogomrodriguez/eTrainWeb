@@ -35,6 +35,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin: 250px auto auto 170px;
 }
 
 #cuadrado-resaltado h4,

@@ -1,16 +1,10 @@
 * {
   background-color: #053322;
-}
-
-h2,
-h3,
-h4,
-h6 {
-  color: #fff;
   font-family: Poppins;
+  color: #fff;
 }
 
-h3{
+/* h3 {
   margin-left: 2.5vw;
 }
 
@@ -20,32 +14,93 @@ h4 {
   margin-top: 30vh;
   margin-right: 60vw;
   background: transparent;
+} */
+
+#sec-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#programas-div {
-  padding: 40px;
+#sec-titulo h3 {
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115px; /* 135.294% */
+  margin: auto 150px 60px 150px;
 }
 
-.img-servicio {
-  opacity: 0.6;
-  width: 90vw;
-  height: 300px;
-  border-radius: 100px;
-  object-fit: cover;
-  z-index: 0;
+#sec-titulo p {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#sec-programas h3 {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115px; /* 209.091% */
+  margin: 100px 100px 70px 100px;
+}
+
+#group-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-servicios {
+  width: 1404px;
+  height: 438px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: #c8fce3;
+  margin: auto 100px 100px 100px;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 5vh;
 }
 
-#servicios-div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
+.card-servicios h4 {
+  color: #053322;
+  background-color: transparent;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90px; /* 100% */
+  width: 581px;
+  margin: 60px auto 90px 123px;
+}
+
+.info-servicios {
+  background-color: transparent;
+}
+
+.info-servicios p {
+  background-color: transparent;
+  width: 399px;
+  color: #000;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 148.148% */
+
+  margin: 40px 100px 40px 150px;
+}
+
+.info-servicios button {
+  border-radius: 100px;
+  border: #00e87e;
+  background: #00e87e;
+  color: #053322;
+
+  width: 377px;
+  height: 95.527px;
+  flex-shrink: 0;
+  margin: auto 100px 60px 150px;
 }
