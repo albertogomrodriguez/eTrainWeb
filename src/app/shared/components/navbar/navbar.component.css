@@ -1,5 +1,6 @@
 * {
   background-color: #053322;
+  padding-bottom: 10px;
 }
 
 nav {
@@ -19,6 +20,6 @@ a {
   text-decoration: none;
 }
 
-#div-img-nav{
+#div-img-nav {
   padding-right: 800px;
 }

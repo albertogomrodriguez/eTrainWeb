@@ -1,5 +1,7 @@
 * {
   background-color: #053322;
+  color: #fff;
+  font-family: Poppins;
 }
 
 .home {
@@ -7,19 +9,11 @@
   flex-direction: column;
 }
 
-h2,
-h5,
-h6,
-p {
-  color: #fff;
-  font-family: Poppins;
-}
-
 #elementos-home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  margin: 40px;
 }
 .home h2 {
   color: #fff;
@@ -27,17 +21,16 @@ p {
   font-style: normal;
   font-weight: 600;
   line-height: 120px; /* 114.286% */
-  max-width: 17ch;
+  width: 1131px;
 
-  margin-left: 183px;
-  margin-top: 266px;
+  margin: 180px auto 50px 160px;
 }
 
 #home-img {
   display: flex;
 
   width: 1300px;
-  height: 959px;
+  height: 700px;
   flex-shrink: 0;
   border-radius: 100px;
   z-index: 2;
@@ -46,25 +39,27 @@ p {
 
 #footer-img-home {
   border-radius: 100px;
-  background: #00e87e;
+  background: #c8fce3;
   width: 1300px;
-  height: 494px;
   flex-shrink: 0;
   z-index: 1;
   position: absolute;
-  padding-top: 79%;
+  padding-top: 65%;
+
+  display: flex;
+  align-items: center;
 }
 
 #text-footer-img {
-  color: #4a4a4a;
+  width: 1105px;
   font-size: 30px;
-  background: #00e87e;
-  font-family: Poppins;
+  text-align: center;
   z-index: 3;
   padding-top: 10vh;
-  max-width: 50ch;
-  text-align: center;
   color: #053322;
+  background: transparent;
+
+  margin: auto 90px auto 90px;
 }
 
 #btn-comienza {
@@ -74,12 +69,22 @@ p {
   border-radius: 100px;
   background: #c8fce3;
   margin-top: 125px;
+  color: #053322;
+
+  font-size: 20px;
+
+  margin-top: 200px;
 }
 
 #seccion-cards {
-  margin-top: 1vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 0px;
+}
+
+#seccion-cards h2 {
+  width: 1195px;
+  margin-left: 153px;
 }
 
 #seccion-cards h6 {
@@ -93,18 +98,13 @@ p {
   margin-bottom: 135px;
 }
 
-#seccion-cards h2 {
-  padding: 0px;
-  margin-left: 153px;
-}
-
 .card {
   border-radius: 50px;
   border: 3px solid #00e87e;
   padding: 5vh;
   width: 891px;
   height: 410px;
-  margin-bottom: 1%;
+  margin-bottom: 70px;
 }
 
 .card p,
@@ -135,14 +135,14 @@ h5 {
 }
 
 #first-card {
-  margin-left: 150px;
+  margin-left: 100px;
 }
 #second-card {
-  margin-left: 415px;
+  margin-left: 300px;
 }
 
 #third-card {
-  margin-left: 763px;
+  margin-left: 600px;
 }
 
 #seccion-carrusel h2,
@@ -153,12 +153,12 @@ p {
 }
 
 #seccion-carrusel {
-  width: 1737px;
+  width: 100%;
   height: 1420px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #00e87e;
-  margin-top: 268px;
+  background: #c8fce3;
+  margin-top: 200px;
 }
 
 #seccion-carrusel h2 {

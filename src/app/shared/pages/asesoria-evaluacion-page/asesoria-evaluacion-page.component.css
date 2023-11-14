@@ -1,0 +1,97 @@
+* {
+  background-color: #053322;
+  color: #fff;
+  font-family: Poppins;
+}
+
+#encabezado {
+  margin-left: 100px;
+}
+
+#encabezado h2 {
+  width: 1091px;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px; /* 114.286% */
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#encabezado h6 {
+  font-size: 50px;
+
+  width: 1214px;
+}
+
+#encabezado p {
+  font-size: 27px;
+
+  width: 1407px;
+
+  margin: 50px 100px 50px auto;
+}
+
+#img-caract {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+#texto-caract {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+
+  margin: auto 100px 150px 100px;
+}
+
+#metodologia {
+  margin-left: 100px;
+}
+
+#metodologia h2 {
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px; /* 114.286% */
+
+  margin-bottom: 30px;
+}
+
+#metodologia h5 {
+  font-size: 27px;
+
+  margin-bottom: 90px;
+}
+
+#metodologia h6,
+p {
+  width: 1183px;
+
+  font-size: 20px;
+}
+
+#metodologia img {
+  margin-bottom: 50px;
+}
+
+#tarifas {
+  margin-left: 100px;
+}
+
+#tarifas h2 {
+  font-size: 105px;
+}
+
+#tarifas h6 {
+  font-size: 20px;
+}
+
+#cards-tarifas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+}
