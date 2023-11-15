@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ServicesPageComponent } from './pages/services-page/services-page.component';
 import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
 import { AsesoriaEvaluacionPageComponent } from './pages/asesoria-evaluacion-page/asesoria-evaluacion-page.component';
+import { DivDesplegableComponent } from './components/div-desplegable/div-desplegable.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AsesoriaEvaluacionPageComponent } from './pages/asesoria-evaluacion-pag
     ServicesPageComponent,
     ImageCarouselComponent,
     AsesoriaEvaluacionPageComponent,
+    DivDesplegableComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
