@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -6,29 +6,37 @@ import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
   styleUrls: ['./slider.component.css'],
 })
 export class SliderComponent {
-  @ViewChild('slider') slider: ElementRef;
+  @ViewChild('slider') private slider: ElementRef;
 
   private isDragging: boolean = false;
-  private startPosition: number;
+  private startX: number;
   private startScrollLeft: number;
+
+  constructor(private renderer: Renderer2) { }
 
   onMouseDown(event: MouseEvent) {
     this.isDragging = true;
-    this.startPosition = event.clientX;
+    this.startX = event.clientX;
     this.startScrollLeft = this.slider.nativeElement.scrollLeft;
   }
 
-  @HostListener('document:mouseup')
   onMouseUp() {
     this.isDragging = false;
   }
 
-  @HostListener('document:mousemove', ['$event'])
   onMouseMove(event: MouseEvent) {
     if (this.isDragging) {
-      const dragDistance = event.clientX - this.startPosition;
-      const newPosition = this.startScrollLeft - dragDistance;
-      this.slider.nativeElement.scrollLeft = newPosition;
+      const moveX = event.clientX - this.startX;
+      const newScrollLeft = this.startScrollLeft - moveX;
+
+      this.applyTransform(newScrollLeft);
     }
+  }
+
+  private applyTransform(scrollLeft: number) {
+    const items = this.slider.nativeElement.querySelectorAll('.item');
+    items.forEach((item: any) => {
+      this.renderer.setStyle(item, 'transform', `translateX(${scrollLeft}px)`);
+    });
   }
 }

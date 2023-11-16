@@ -1,21 +1,11 @@
-<!-- horizontal-slider.component.html -->
-
-<div #slider class="slider" (mousedown)="onMouseDown($event)">
-  <div class="slider-inner">
-    <div class="slider-item">
-      <div class="left-content">Item 1 - Left</div>
-      <div class="divider"></div>
-      <div class="right-content">Item 1 - Right</div>
-    </div>
-    <div class="slider-item">
-      <div class="left-content">Item 2 - Left</div>
-      <div class="divider"></div>
-      <div class="right-content">Item 2 - Right</div>
-    </div>
-    <div class="slider-item">
-      <div class="left-content">Item 3 - Left</div>
-      <div class="divider"></div>
-      <div class="right-content">Item 3 - Right</div>
-    </div>
-  </div>
+<div
+  #slider
+  class="slider"
+  (mousedown)="onMouseDown($event)"
+  (mouseup)="onMouseUp()"
+  (mousemove)="onMouseMove($event)"
+>
+  <div class="item">Elemento 1</div>
+  <div class="item">Elemento 2</div>
+  <div class="item">Elemento 3</div>
 </div>

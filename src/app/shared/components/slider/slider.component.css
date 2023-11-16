@@ -1,39 +1,22 @@
-/* horizontal-slider.component.css */
-
 .slider {
-  width: 100vw;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  cursor: grab;
-
-  background-color: #c8fce3;
-}
-
-.slider-inner {
+  display: flex;
+  overflow: hidden; /* Se cambia de 'overflow-x: auto' a 'overflow: hidden' */
   white-space: nowrap;
-  display: flex;
-  transition: transform 0.3s ease; /* Agregamos una transición para suavizar el desplazamiento */
+  cursor: grab;
+  width: 100%;
 }
 
-.slider-item {
-  flex: 0 0 100vw; /* Tamaño fijo de 500px para cada elemento */
-  height: 100%;
-  display: flex;
-  align-items: center;
-
+.item {
+  flex: 0 0 auto;
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: transform 0.3s ease; /* Se agrega una transición para un efecto más suave */
 }
 
-.left-content,
-.right-content {
-  width: 50%; /* Cada div ocupa el 50% del espacio */
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.divider {
-  width: 1px; /* Ancho de la línea divisoria */
-  height: 80%; /* Altura de la línea divisoria (ajusta según sea necesario) */
-  background-color: #ccc; /* Color de la línea divisoria */
-  margin: 0 10px; /* Márgenes para separar la línea de los contenidos izquierdo y derecho */
+.slider:active {
+  cursor: grabbing;
 }
