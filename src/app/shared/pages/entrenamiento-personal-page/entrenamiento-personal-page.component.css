@@ -1,0 +1,38 @@
+* {
+  background-color: #053322;
+  color: #fff;
+  font-family: Poppins;
+}
+
+h3 {
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px; /* 114.286% */
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 100px;
+  margin-right: 150px;
+}
+
+#slider{
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+#encabezado {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+#contenido {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}

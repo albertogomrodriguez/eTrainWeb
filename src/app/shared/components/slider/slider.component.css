@@ -1,0 +1,39 @@
+/* horizontal-slider.component.css */
+
+.slider {
+  width: 100vw;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  cursor: grab;
+
+  background-color: #c8fce3;
+}
+
+.slider-inner {
+  white-space: nowrap;
+  display: flex;
+  transition: transform 0.3s ease; /* Agregamos una transición para suavizar el desplazamiento */
+}
+
+.slider-item {
+  flex: 0 0 100vw; /* Tamaño fijo de 500px para cada elemento */
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.left-content,
+.right-content {
+  width: 50%; /* Cada div ocupa el 50% del espacio */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.divider {
+  width: 1px; /* Ancho de la línea divisoria */
+  height: 80%; /* Altura de la línea divisoria (ajusta según sea necesario) */
+  background-color: #ccc; /* Color de la línea divisoria */
+  margin: 0 10px; /* Márgenes para separar la línea de los contenidos izquierdo y derecho */
+}

@@ -1,0 +1,52 @@
+<div>
+  <button class="button-despegable" (click)="toggleDiv(1)">
+    Proceso de Evaluación Detallada
+    <i
+      class="fa"
+      [ngClass]="{
+        'fa-arrow-down': div1FlechaAbajo,
+        'fa-arrow-up': !div1FlechaAbajo
+      }"
+    ></i>
+  </button>
+</div>
+<div class="div-desplegado" *ngIf="div1Desplegado">
+  <!-- Contenido del div 1 desplegable -->
+  <h6>“Nos importa tu por qué”</h6>
+  <p>
+    Nuestro servicio comienza con una exhaustiva evaluación de tu estado físico.
+    Utilizando tecnologías avanzadas y métodos científicos, medimos el rango de
+    movilidad de tus articulaciones, evalúamos tu fuerza muscular, medimos tu
+    capacidad de salto y recopilamos datos cruciales sobre tu resistencia. Esta
+    información no solo nos permite entender tu punto de partida, sino que
+    también sienta las bases para un programa de entrenamiento efectivo y
+    personalizado.
+  </p>
+</div>
+
+<div>
+  <button class="button-despegable" (click)="toggleDiv(2)">
+    Entrenamiento personal online o presencial
+    <i
+      class="fa"
+      [ngClass]="{
+        'fa-arrow-down': div2FlechaAbajo,
+        'fa-arrow-up': !div2FlechaAbajo
+      }"
+    ></i>
+  </button>
+</div>
+<div class="div-desplegado" *ngIf="div2Desplegado">
+  <!-- Contenido del div 2 desplegable -->
+  <h6>“Adaptado y personalizado”</h6>
+  <p>
+    Con los datos en mano y una comprensión profunda de tus metas individuales,
+    nuestros expertos diseñan un plan de entrenamiento personalizado con la
+    cronología que mejor se adapte a ti, puede ser de seis semanas o un
+    entrenamiento semana a semana. Cada ejercicio y actividad están
+    cuidadosamente seleccionados para maximizar tus resultados, teniendo en
+    cuenta tus objetivos específicos, nivel de condición física y cualquier
+    consideración especial de salud.
+  </p>
+</div>
+
