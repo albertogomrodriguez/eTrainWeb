@@ -19,14 +19,10 @@ const routes: Routes = [
   {
     path: 'servicios',
     component: ServicesPageComponent,
-  },
-  {
-    path: 'asesoria-online',
-    component: AsesoriaEvaluacionPageComponent,
-  },
-  {
-    path: 'entrenamientos-personales',
-    component: EntrenamientoPersonalPageComponent,
+    children: [
+      { path: 'asesoria-online', component: AsesoriaEvaluacionPageComponent },
+      { path: 'entrenamientos-personales', component: EntrenamientoPersonalPageComponent},
+    ],
   },
   {
     path: '**',
