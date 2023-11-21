@@ -13,28 +13,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px;
 }
 .home h2 {
   color: #fff;
-  font-size: 105px;
+  font-size: 656%;
   font-style: normal;
   font-weight: 600;
   line-height: 120px; /* 114.286% */
   width: 1131px;
 
-  margin: 180px auto 50px 160px;
+  margin: 180px auto 50px 150px;
 }
 
 #home-img {
   display: flex;
 
   width: 1300px;
-  height: 700px;
+  height: 400px;
   flex-shrink: 0;
   border-radius: 100px;
   z-index: 2;
   object-fit: cover;
+  margin: auto 212px auto 212px
 }
 
 #footer-img-home {
@@ -44,7 +44,7 @@
   flex-shrink: 0;
   z-index: 1;
   position: absolute;
-  padding-top: 65%;
+  padding-top: 44%;
 
   display: flex;
   align-items: center;

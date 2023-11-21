@@ -1,1 +1,98 @@
-<p>planes-page works!</p>
+<div id="planes">
+  <div id="encabezado" >
+    <h3>Hazlo a tu manera</h3>
+    <p>
+      Personaliza tu experiencia combinando los planes de entrenamiento según
+      tus necesidades
+    </p>
+  </div>
+  <div id="rectangulo">
+    <h5>La flexibilidad es la clave del éxito</h5>
+    <p>
+      Te ofrecemos la libertad de combinar nuestros servicios para que puedas
+      sacar lo mejor de cada uno, en función de lo que mejor se adapte a ti y a
+      tus tiempos. Puedes, por ejemplo, elegir la Evaluación y Asesoría online
+      junto con los Entrenamientos Personales para que un profesional te guíe de
+      manera presencial u online. ¡Todo es posible! La elección es tuya.
+    </p>
+  </div>
+  <div id="tarifas">
+    <h3>Planes y tarifas</h3>
+    <p>Descubre el plan que mejor se adapta a ti, nosotros haremos el resto.</p>
+  </div>
+  <div id="cards-tarifas">
+    <div
+      class="card"
+      (mouseenter)="onMouseEnter()"
+      (mouseleave)="onMouseLeave()"
+      [ngClass]="{ hovered: isHovered }"
+    >
+      <div class="card-content">
+        <div>
+          <h4>Asesoría Online y Evaluación</h4>
+          <h3>80€</h3>
+          <ul>
+            <li>Evaluación online</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+          <hr />
+          <h3>100€</h3>
+          <ul>
+            <li>Evaluación prensencial</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card center"
+      (mouseenter)="onMouseEnter()"
+      (mouseleave)="onMouseLeave()"
+      [ngClass]="{ hovered: isHovered }"
+    >
+      <div class="card-content">
+        <div>
+          <h4>Asesoría Online y Evaluación</h4>
+          <h3>80€</h3>
+          <ul>
+            <li>Evaluación online</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+          <hr />
+          <h3>100€</h3>
+          <ul>
+            <li>Evaluación prensencial</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card"
+      (mouseenter)="onMouseEnter()"
+      (mouseleave)="onMouseLeave()"
+      [ngClass]="{ hovered: isHovered }"
+    >
+      <div class="card-content">
+        <div>
+          <h4>Asesoría Online y Evaluación</h4>
+          <h3>80€</h3>
+          <ul>
+            <li>Evaluación online</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+          <hr />
+          <h3>100€</h3>
+          <ul>
+            <li>Evaluación prensencial</li>
+            <li>6 semanas de asesoría</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="button">
+    <button>Comienza hoy</button>
+  </div>
+
+</div>

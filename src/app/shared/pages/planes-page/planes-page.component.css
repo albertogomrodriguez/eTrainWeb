@@ -1,0 +1,193 @@
+* {
+  background-color: #053322;
+  color: #fff;
+  font-family: Poppins;
+}
+
+#encabezado {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10%;
+  background-image: url("../../../../assets/img/82daafb4e32b9eee787e655101f96d21.jfif");
+  background-size: cover;
+
+  width: 100%;
+
+}
+
+#encabezado h3 {
+  color: #fff;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115px; /* 135.294% */
+  margin-left: 10%;
+  margin-top: 15%;
+
+  background-color: transparent;
+}
+
+#encabezado p {
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+
+  margin-bottom: 10%;
+}
+
+#rectangulo {
+  width: 100%;
+  height: 704px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #c8fce3;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#rectangulo h5,
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  color: #053322;
+}
+
+#rectangulo h5 {
+  color: #000;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 100px 200px 0px 200px;
+}
+
+#rectangulo p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 1263px;
+  margin: 40px 220px auto 220px;
+}
+
+#tarifas h3,
+p {
+  margin-left: 10%;
+  color: #fff;
+
+  font-family: Poppins;
+  text-align: left;
+}
+
+#tarifas h3 {
+  color: #fff;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120px; /* 114.286% */
+
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+#tarifas p {
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cards-tarifas {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.card {
+  width: 420px;
+  height: 695px;
+  border-radius: 20px;
+  border: 3px solid #00e87e;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 90px auto;
+}
+
+.center {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card-content div h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card-content div h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-content div li {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+hr {
+  width: 203px;
+  height: 0px;
+  flex-shrink: 0;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 500px;
+  height: 99px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #00e87e;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  color: #053322;
+
+  font-size: 30px;
+}
